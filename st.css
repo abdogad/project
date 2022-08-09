@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.head{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    z-index: 1010;
+}
+.small-list{
+    width:50px;
+    height: 100%-.5rem;
+    padding: 0.5rem;
+}
+.small-list button{
+    border:0;
+    background-color: white;
+}
+.navigation{
+    display:flex;
+    width: 100%;
+    height: 4rem;
+}
+.nav{
+    margin: 0rem 0.4rem;
+    width: 5.5rem;
+    text-align: center;
+    position: relative;
+}
+.nav1{
+    margin: 0rem 0.4rem;
+    width: 7rem;
+    text-align: center;
+    position: relative;
+}
+.nav2{
+    margin: 0rem 0.2rem;
+    width: 5rem;
+    text-align: center;
+    position: relative;
+}
+.cart img{
+    margin-left: -30px;
+}
+.logo{
+    padding: 0.7rem 0;
+}
+.cen{
+    padding: 1.4rem 0 0.9rem 0;
+}
+a{
+    color:black;
+    text-decoration: none;
+
+}
+.out{
+    background-color: rgb(28,29,31);
+}
+.out p{
+    color:white;
+}
+.nav.search{
+    width:50%;
+    text-align:left;
+    padding: 0.7rem 0 0.5rem 0;
+}
+.formo{
+    position:relative;
+    border: black solid 1px;
+    border-radius: 9999px;
+    width: 100%;
+    height: 100%;
+}
+.formo button{
+    margin: 0.4rem 0.4rem 0 .8rem;
+    width: 5%;
+    height:75%;
+    background-color: white;
+    border: 0 white ;
+}
+.formo input[type=text]{
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    top:10%;
+    left: 8%;
+    border: 0 white;
+    outline: none;
+    font-size: 1rem;
+}
+.buttono{
+    border: 1px black solid;
+    margin-top: -0.5rem;
+    padding: 0.5rem 0.1rem;
+    width: 90%;
+    height: 75%;
+}
+.beforema{
+    height: 400px;
+    width:90%;
+    margin-left: 5%;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+.par{
+    position: absolute;
+    top: 4rem;
+    left: 10rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    height: 65%;
+    width: 30%;
+    text-align: left;
+    font-size: 1.5rem;
+    
+}
+
+.buttono1{
+    border: 1px black solid;
+    width: 10%;
+    text-align: center;
+    padding: .5rem;
+    height: 60%;
+}
+
+.main{
+    width:87%;
+    height:fit-content;
+    padding: 1rem 6.5%;
+}
+.small-list{
+    display: none;
+}
+.container{
+    display:flex;
+    width:100%;
+    height:fit-content;
+    flex-wrap: wrap;
+}
+.acourse{
+    margin-right: .5rem;
+    width: 240px;
+    margin-bottom: .4rem;
+}
+.acourse img{
+    border:#D1D6DC 1px solid;
+}
+.listo:hover p{
+    color: rgb(87,37,208);
+}
+.listo:hover{
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.buttono:hover{
+    background-color: rgb(245,245,245);
+    cursor: pointer;
+}
+.buttono.out:hover{
+    background-color: black;
+}
+.buttono1:hover{
+    background-color: rgb(245,245,245);
+    cursor: pointer;
+}
+.courses{
+    border: 1px solid #d1d7dc;
+    /*box-sizing: border-box;
+    height: 100%;*/
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.list{
+    margin: 0.5rem 0;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.list ul li{
+    display: block;
+    font-weight: bold;
+    height: 1.2rem;
+    padding: 0.6rem 1.4rem 0.6rem 0;
+    text-align: center;
+    color: #6a6b6a;
+}
+.list ul li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+@media (max-width: 1085px) {
+    .nav , .nav2 , .nav1{
+        display: none;
+    }
+    .small-list{
+        display: block;
+    }
+    .logo{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .beforema{
+        height: fit-content;
+        width:90%;
+        
+        border: 1px #d1d7dc solid;
+    }
+    .par{
+        position:static;
+        width: 90%;
+        box-shadow: none;
+        padding: 20px;
+
+    }
+}
