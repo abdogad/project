@@ -123,9 +123,9 @@ a{
 
 .buttono1{
     border: 1px black solid;
-    width: 10%;
+    width: 5rem;
     text-align: center;
-    padding: .5rem;
+    padding: 0.5rem 0.2rem;
     height: 60%;
 }
 
