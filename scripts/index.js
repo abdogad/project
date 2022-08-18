@@ -36,8 +36,6 @@ function render(arr){
     carousel.innerHTML = "";
     
     let numberOfCards = Math.floor((carousel.clientWidth)/248);
-    let wasted = carousel.clientWidth%248;
-    let marginright = wasted/(numberOfCards-1);
     let index = 0;
     headerOfCourse.innerHTML = header[indOfList-1];
     paragraphOfCourse.innerHTML =paragraph[indOfList-1];
@@ -47,12 +45,12 @@ function render(arr){
     console.log(arr.length);
     while(index<arr.length){
         str = "";
-        if(index === 0)str+=`<div class="carousel-item active"><div class="d-flex flex-row">`;
-        else str+=`<div class="carousel-item"><div class="d-flex flex-row">`;
+        if(index === 0)str+=`<div class="carousel-item active"><div class="d-flex flex-row justify-content-between">`;
+        else str+=`<div class="carousel-item"><div class="d-flex flex-row justify-content-between">`;
         for(let i = index;i<Math.min(index+numberOfCards,arr.length);i++){
             console.log(arr[i].image);
             if(index != Math.min(index+numberOfCards,arr.length)-1){
-                str+=`<div class="acourse" style="margin-right:${marginright}px;">
+                str+=`<div class="acourse">
                     <img src=${arr[i].image} alt="python1">
                     <h3 style="font-size:1.1rem;">${arr[i].title}</h3>
                     <h5 style="color:gray;font-size:0.7rem;">${arr[i].instructors[0].name}</h4>
@@ -60,12 +58,11 @@ function render(arr){
                     </div>`;
             }
             else{
-                str+=`<div class="acourse" style="margin-right:0px;">
-                    <img src=${arr[i].image} alt="python1">
-                    <h3 style="font-size:1.1rem;">${arr[i].title}</h3>
+               str+=`<div class="acourse" style="margin-right:0px;">
+                   <img src=${arr[i].image} alt="python1">
+                 <h3 style="font-size:1.1rem;">${arr[i].title}</h3>
                     <h5 style="color:gray;font-size:0.7rem;">${arr[i].instructors[0].name}</h4>
-                    <h3 style="font-size:1.1rem;">${arr[i].price}$</h3>
-                    </div>`;
+                      </div>`;
             }
         }
         str+="</div></div> "

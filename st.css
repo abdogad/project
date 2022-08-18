@@ -205,7 +205,7 @@ button:hover{
 }
 .control-carousel-right{
     position: absolute;
-    right :-30px;
+    right :-15px;
     top: 45px;
 }
 .control-carousel-left:hover,.control-carousel-right:hover{
