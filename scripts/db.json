@@ -2,6 +2,7 @@
     "courses": [
         {
             "id": 394676,
+            "category":[1],
             "title": "Learn Python: The Complete Python Programming Course",
             "headline": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
             "rating": 4.372561,
@@ -22,6 +23,7 @@
         },
         {
             "id": 396876,
+            "category":[1,5],
             "title": "Learning Python for Data Analysis and Visualization",
             "headline": "Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
             "rating": 4.3899083,
@@ -37,6 +39,7 @@
         },
         {
             "id": 405878,
+            "category":[1],
             "title": "Python for Beginners - Learn Programming from scratch",
             "headline": "Python For Beginners : This course is meant for absolute beginners in programming or in python.",
             "rating": 4.40372,
@@ -57,6 +60,7 @@
         },
         {
             "id": 426570,
+            "category":[1],
             "title": "Learn Python: Python for Beginners",
             "headline": "Python introduction for beginners. Learn complete Python from scratch!",
             "rating": 4.2765956,
@@ -72,6 +76,7 @@
         },
         {
             "id": 449532,
+            "category":[1],
             "title": "Python Beyond the Basics - Object-Oriented Programming",
             "headline": "From Classes To Inheritance - OOP In-Depth For Python Programmers",
             "rating": 4.3240743,
@@ -87,6 +92,7 @@
         },
         {
             "id": 482754,
+            "category":[1],
             "title": "Python From Scratch & Selenium WebDriver QA Automation 2022",
             "headline": "2 courses in 1. Python and Selenium WebDriver from scratch for Automation Testing, SQL Crash Course, Framework Design",
             "rating": 4.654122,
@@ -102,6 +108,7 @@
         },
         {
             "id": 519554,
+            "category":[1],
             "title": "Teach Your Kids to Code: Learn to Program Python at Any Age!",
             "headline": "Short, colorful apps and games you can use to teach and learn programming at any age! Chromebook, PC, Mac and Linux!",
             "rating": 4.527941,
@@ -117,6 +124,7 @@
         },
         {
             "id": 535622,
+            "category":[1],
             "title": "Python for Data Structures, Algorithms, and Interviews!",
             "headline": "Get a kick start on your career and ace your coding interviews!",
             "rating": 4.5323277,
@@ -132,6 +140,7 @@
         },
         {
             "id": 543600,
+            "category":[1,7],
             "title": "Automate the Boring Stuff with Python Programming",
             "headline": "A practical programming course for office workers, academics, and administrators who want to improve their productivity.",
             "rating": 4.6973357,
@@ -147,6 +156,7 @@
         },
         {
             "id": 567828,
+            "category":[1,6],
             "title": "2022 Complete Python Bootcamp From Zero to Hero in Python",
             "headline": "Learn Python like a Professional  Start from the basics and go all the way to creating your own applications and games",
             "rating": 4.6162734,
@@ -162,6 +172,7 @@
         },
         {
             "id": 577248,
+            "category":[1,4],
             "title": "Python for Beginners with Examples",
             "headline": "A Python course for the busy ones to learn Python programming. Learn and practice Python by building two complete apps.",
             "rating": 4.4764705,
@@ -177,6 +188,7 @@
         },
         {
             "id": 622414,
+            "category":[1,3],
             "title": "Taming Big Data with Apache Spark and Python - Hands On!",
             "headline": "PySpark tutorial with 20+  hands-on examples of analyzing large data sets on your desktop or on Hadoop with Python!",
             "rating": 4.5037427,
@@ -199,6 +211,22 @@
                 }
             ],
             "price": 15.99
+        },
+        {
+            "id": 394676,
+            "category":[2],
+            "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
+            "headline": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+            "rating": 4.372561,
+            "image": "https://img-c.udemycdn.com/course/240x135/31535_e351_7.jpg",
+            "instructors": [
+                {
+                    "name": "Infinite Skills",
+                    "jop": "CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+                    "image": "https://img-b.udemycdn.com/user/100x100/10260436_946b_6.jpg"
+                }
+            ],
+            "price": 16.99
         }
     ]
 }

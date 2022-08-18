@@ -142,11 +142,15 @@ a{
     display: none;
 }
 .container{
-    display:flex;
+    display:
+    flex;
     width:100%;
-    height:fit-content;
+    height:
+    fit-content;
     flex-wrap: wrap;
+    
 }
+
 .acourse{
     margin-right: .5rem;
     width: 240px;
@@ -184,6 +188,29 @@ button:hover{
     margin-bottom: 2rem;
     padding: 2rem;
 }
+.control-carousel-left,.control-carousel-right{
+    background-color: black;
+    border-radius: 9999px;
+    border:1px black solid;
+    color: white;
+    width: 45px;
+    height:45px;
+    font-size: 0.7rem;
+    
+}
+.control-carousel-left{
+    position: absolute;
+    left :-30px;
+    top: 45px;
+}
+.control-carousel-right{
+    position: absolute;
+    right :-30px;
+    top: 45px;
+}
+.control-carousel-left:hover,.control-carousel-right:hover{
+    background-color: rgb(28,29,31);
+}
 .list{
     margin: 0.5rem 0;
 }
@@ -204,6 +231,25 @@ button:hover{
     cursor: pointer;
     font-weight: bold;
     color: black;
+}
+
+.categories-grid{
+    width:100%;
+    height:fit-content;
+    padding: 1rem 6.5%;
+}
+.medium-size-grid{
+    display: none;
+}
+@media (max-width: 1470px){
+    @media (min-width: 1108px){
+        .medium-size-grid{
+            display: block;
+        }
+        .large-size-grid{
+            display: none;
+        }
+    }
 }
 @media (max-width: 1270px){
     .nav1.bussiness{
